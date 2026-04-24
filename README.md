@@ -13,6 +13,21 @@ npm install
 ```
 npm i -g @nestjs/cli
 ```
+4. Levantar la base de datos
+```
+docker-compose up -d
+```
+5. Para correr el BFF usar:
+```
+npm run start:dev
+``` 
+6. O tambien podemos usar 
+```
+nest start --watch
+```
+
+
+
 
 
 ## Stack Usado
