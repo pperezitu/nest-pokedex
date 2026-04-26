@@ -17,7 +17,6 @@ export class PokemonController {
   @Get()
   findAll( @Query() paginationDto: PaginationDto ) {
     const normalQueryParameters = Object.assign({}, paginationDto);
-    //console.log( { normalQueryParameters } );
     return this.pokemonService.findAll(paginationDto)
   }
 
