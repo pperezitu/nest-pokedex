@@ -25,6 +25,10 @@ npm run start:dev
 ```
 nest start --watch
 ```
+7. Reconstruir la base de datos con la semilla, desde postman con la URL
+```
+http://localhost:3000/api/v2/seed
+```
 
 
 
