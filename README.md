@@ -25,7 +25,11 @@ npm run start:dev
 ```
 nest start --watch
 ```
-7. Reconstruir la base de datos con la semilla, desde postman con la URL
+7. Clonar el archivo ```.env.template``` y renombrar a ```.env```
+
+8. Llenar la variables de entorno definidas en el ```.env```
+
+9. Reconstruir la base de datos con la semilla, desde postman con la URL
 ```
 http://localhost:3000/api/v2/seed
 ```
