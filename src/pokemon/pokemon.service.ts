@@ -9,7 +9,7 @@ import { ConfigService } from '@nestjs/config';
 import { config } from 'process';
 
 @Injectable()
-export class PokemonService {
+export class PokemonService { 
 
   private defaultLimit: number;
 
